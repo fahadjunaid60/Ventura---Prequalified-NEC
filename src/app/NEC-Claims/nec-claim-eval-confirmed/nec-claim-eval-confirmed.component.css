@@ -1,0 +1,90 @@
+.navbar-style {
+    background-color: #4b007c;
+}
+
+.container {
+    text-align: center;
+}
+
+.container .Step {
+    padding-top: 9px;
+}
+
+.claim {
+    text-align: center;
+}
+
+body {
+    background-image: url("https://cdn.msgsndr.com/location%2FiXwu2yx42UbtrX6PKjSy%2Fimages%2F4ca6ed4a-febc-4e33-af4f-753562939ede.jpeg?alt=media");
+    background-color: rgba(255, 255, 255, 0.6);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.bones {
+    background-image: url("https://cdn.msgsndr.com/location%2FiXwu2yx42UbtrX6PKjSy%2Fimages%2Fa486de40-8f52-4e63-82e1-f1e912769b2b.jpeg?alt=media");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 17vh !important;
+    padding-top: 30px !important;
+}
+
+.bones .success {
+    text-align: center;
+    display: inline-block;
+    text-align: left;
+}
+
+.bones .reach {
+    text-align: center;
+    display: inline-block;
+    text-align: left;
+}
+
+.form1 {
+    padding: 30px;
+    padding-left: 50px;
+    margin: auto;
+    background: #fff;
+    max-width: 500px;
+    border-radius: 0px;
+    bottom: 120px;
+    position: relative;
+}
+
+.form .next {
+    text-align: center;
+    text-align: left;
+}
+
+.form .next .line {
+    text-align: center;
+    height: 10px;
+}
+
+.footer {
+    background-color: #4b007c;
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    top: 1320px;
+    padding-right: 20px;
+}
+
+.footer .footnote {
+    font-size: 12px;
+    color: white;
+    left: 900px;
+    position: absolute;
+    font-family: oswald;
+}
+
+.footer .logo {
+    background-image: url("https://assets.cdn.msgsndr.com/FwSKMHDdhJUYTXmlT7oB/media/700ee007-31d3-4004-9a33-569b935930df.png");
+    height: 100px;
+    width: 100px;
+    z-index: 10;
+}

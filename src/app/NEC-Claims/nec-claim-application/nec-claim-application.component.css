@@ -1,0 +1,91 @@
+header {
+    background-image: url('/assets/header-background-intro.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0px 120px 0px;
+}
+
+.container {
+    max-width: 1070px;
+}
+
+.instruction {
+    margin-top: -60px;
+}
+
+.button {
+    float: left;
+    margin: 0 5px 0 0;
+    height: 40px;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.button label,
+.button input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.button input[type="radio"] {
+    opacity: 0.011;
+    z-index: 100;
+}
+
+.button input[type="radio"]:checked+label {
+    background: #400067;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.button label {
+    cursor: pointer;
+    z-index: 90;
+    line-height: 1.8em;
+    text-align: center;
+    background: #8200D1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"],
+select {
+    margin-top: 15px;
+}
+
+.radio-type {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-btn {
+    display: none;
+}
+
+.slide-form .slide-item {
+    display: none;
+}
+
+.btn-submit-wrapper {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.slide-form .slide-item.active {
+    display: block;
+}
+
+.slide-item.active {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}

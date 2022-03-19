@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ventura---prequalified-nec": {
+      "hosting": {
+        "app": [
+          "ventura---prequalified-nec"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ventura---prequalified-nec"
+  }
+}

@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,300&display=swap');
+:root {
+    --yellow: #FFFB00;
+    --purple: #400067;
+}
+
+footer {
+    background: var(--purple);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-title {
+    background: var(--purple);
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+.text-purple {
+    color: var(--purple);
+}
+
+.btn-purple {
+    background: var(--purple);
+}
+
+.btn-purple span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bg-yelow {
+    background: var(--yellow);
+}
+
+.bg-purple {
+    background: var(--purple);
+}
+
+.bg-light-purple {
+    background: #5A0096;
+}
+
+.bg-none {
+    background: none;
+}
+
+@media(max-width:767px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:520px) {
+    p {
+        font-size: 14px;
+    }
+}
